@@ -1,0 +1,139 @@
+body{
+	background:-moz-linear-gradient(top, #fff 0%, #31A2C4 80%);
+	background:-webkit-linear-gradient(top, #fff 0%, #31A2C4 80%);
+	background:linear-gradient(top, #fff 0%, #31A2C4 80%);
+	background-repeat:no-repeat;
+	margin-left:40px;
+	margin-right:40px;
+
+}
+
+.left_align{
+	text-align:left;
+}
+
+#content{
+	background:#fff;
+	width:1200px;
+	margin:auto;
+}
+
+#banner{
+	background: url('uet_banner.png');
+	background-repeat:no-repeat;
+	height: 115px;
+}
+
+.bar{
+	background:-moz-linear-gradient(top, #fff 0%, #31A2C4 80%);
+	background:-webkit-linear-gradient(top, #fff 0%, #31A2C4 80%);
+	background:linear-gradient(top, #fff 0%, #31A2C4 80%);
+	height:20px;
+	border-radius:5px;
+}
+
+.right_align{
+	text-align:right;
+	margin-right:20px;
+}
+
+#menu{
+	width:250px;
+	background:#D7FCFE;
+	border-radius:10px;
+	float: left;
+	margin-left:5px;
+}
+
+#display{
+	width: 920px;
+	float:right;
+	border-radius:10px;
+	margin-right:5px;
+	margin-top:5px;
+        min-height: 600px;
+}
+
+#display form input[type="submit"] {
+    margin-top:20px;
+	text-align:center;
+	width:100px;
+	height:30px;
+	font-weight:bold;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	background:#008BA3 ;
+	background:-moz-linear-gradient(top, #00D0F5 0%, #004552 100%);
+	background:linear-gradient(top, #00D0F5 0%, #004552 100%);
+	background:-webkit-linear-gradient(top, #00D0F5 0%, #004552 100%);
+	box-shadow:2px 1px 3px #004552;
+	-moz-box-shadow:2px 1px 3px #004552;
+	-webkit-box-shadow:2px 2px 3px #004552;
+	font-size:20px;
+    float: right;
+    margin-right:60px;
+}
+
+a.menu_item{
+	text-decoration:none;
+	text-align:center;
+	color:#185162;
+	display:block;
+	padding:10px 30px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	background:#01383C;
+	border:1px solid;
+	height:20px;
+}
+
+a.menu_item:visited{
+	color:#185162;
+}
+a.menu_item:hover{
+	text-decoration:none;
+	background:-moz-linear-gradient(bottom, #fff 0%, #01383C 80%);
+	background:-webkit-linear-gradient(bottom, #fff 0%, #01383C 80%);
+	background:linear-gradient(bottom, #fff 0%, #01383C 80%);
+	color:#37EEFB;
+}
+
+li{
+	list-style:none;
+	margin-left:1px;
+	float:left;
+}
+
+ul{
+	margin-left:1px;
+}
+
+table.table_cons{
+	border:1px solid #000000;
+	width:100%;
+	border-spacing:0px;
+	border-collapse:collapse;
+	overflow:auto;	
+}
+
+tr{
+	height:30px;
+}
+
+th{
+	border:1px solid #000000;
+	border-collapse:collapse;
+}
+
+td{
+	text-align:center;
+	border:1px solid #000000;
+	border-collapse:collapse;
+}
+
+.header{
+	text-align:center;
+	color:#263C40;
+}
